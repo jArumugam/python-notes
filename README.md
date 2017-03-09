@@ -178,3 +178,14 @@ I like compressing data.
   - works well with map, reduce, and filter 
   - map(function, sequence_iterable) 
   - map(lambda_expression, sequence_iterable)
+
+- Nestes statement and scope
+  - **LEGB**
+  - Local 
+  - Enclosing function
+  - Global 
+  - Built-in 
+  - `globals()` and `locals()` will return respective variables
+  - functions are objects and hence could be assigned variable names 
+  
+- Milestone project 
