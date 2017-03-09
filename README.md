@@ -1,6 +1,5 @@
 # python-notes
 Notes from udemy course 
-I like compressing data. 
 
 - [Complete Python Bootcamp](https://www.udemy.com/complete-python-bootcamp/)
 
