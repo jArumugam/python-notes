@@ -129,10 +129,12 @@ Notes from udemy course
 - in python 3, `for k,v in d.items():`  
     
 - while loops
-  - while test:
-    - code statement 
-  - else: 
-    - final code statement
+```python
+while test:
+  code statement 
+else: 
+  final code statement
+```
   - `break`, breaks out of closest enclosing loop
   - `continue`, continues to the top of closest enclosing loop 
   - `pass`, does nothing at all 
