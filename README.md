@@ -42,16 +42,16 @@ Notes from udemy course
   - list comprehensions: [row[0] for row in matrix]. 
 
 - Dictionary
-  - dict = {'KeyN':'ValueN', ... }
-  - dict['KeyN'] returns 'ValueN',  
+  - `dict = {'KeyN':'ValueN', ... }`
+  - `dict['KeyN']` returns 'ValueN',  
   - dictionary supports flexible data types. Lists, etc.
   - nested dictionaries possible. dict['K1']['NestedKM'][2] works
-  - dict.keys() returns list of keys, not in order.
-  - dict.values() returns list of values.
-  - dict.items() returns tuples of ('key', values)
+  - `dict.keys()` returns list of keys, not in order.
+  - `dict.values()` returns list of values.
+  - `dict.items()` returns tuples of ('key', values)
   
 - Tuples
-  - Tuples are data-type flexible but immutable. 
+  - Tuples are data-type flexible but **immutable**. 
   - t =(1,2,3), t[0] = 4 will throw an error! 
   - very few methods. t.count(), t.index() 
   
