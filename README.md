@@ -228,3 +228,15 @@ Notes from udemy course
     - `filter()` does this 
   - all() 
     - `all(list)` to find if all satisfy condition. returns True or False
+
+- Decorators
+
+- Generators
+
+- Capstone project
+
+- Advanced modules
+
+- Advanced objects and data structures
+
+- GUIs 
