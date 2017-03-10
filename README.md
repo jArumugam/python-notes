@@ -188,3 +188,17 @@ Notes from udemy course
   - functions are objects and hence could be assigned variable names 
   
 - Milestone project 
+
+- OOPS
+  - Object
+  - Class 
+  - Attribute
+  - Method
+  - class object attribute
+  - Inheritance
+  - base class and derived class 
+  - Also check 
+  - [Python OOPs Tutorial point](http://www.tutorialspoint.com/python/python_classes_objects.htm)
+  - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+  
+- Errors and exception handling
