@@ -202,3 +202,29 @@ Notes from udemy course
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
   
 - Errors and exception handling
+
+- Modules 
+  - Packagaes are set of modules in a folder with one extra file 
+  - Package folder has *_ _ init _ _.py* which could be empty
+  - print `dir(module)` for available function 
+  - `help(module.function)` for documentation
+  - `__all__ = ["func1", "func2"]` in *_ _ init _ _.py* to import specific functions
+  
+- Built-in functions
+  - Python 3 use iterator for map, reduce and filter
+  - Python 2 use lists for map, reduce and filter
+  - map() `map(func, iterable)` 
+    - applies function to all elements in iterable
+  - reduce() `map(func, iterable)` 
+    - applies function recursively
+  - filter() `filter(condition, list)` return list that satisfies condition
+  - zip() `zip(listA,listB)` return list of tuples (listAele, listBele)
+    - smallest list decides length
+  - enumerate() `enumerate(iterable)` returns tuple (eleNum, iterVal)
+  - complex() `complex(a,b)` or `complex('a+bj')` returns complex number 
+  - any() - `any(list)` to find if any satisfies condition. returns True or False
+    - I thought any(condition, list) to find indices that satisfies condition
+    - use list comprehension 
+    - `filter()` does this 
+  - all() 
+    - `all(list)` to find if all satisfy condition. returns True or False
