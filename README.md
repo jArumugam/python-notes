@@ -105,8 +105,9 @@ Notes from udemy course
 - Statements
   - python gets rid of () and {} using : and indentation. more readable. 
   - no semi colons like in C++ 
-```python
+
   - if,elif,else statements
+  ```python  
 if case 1:
   perform action 1
 elif case 2:
