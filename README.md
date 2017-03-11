@@ -168,7 +168,7 @@ else:
   
 - Methods
   - methods are functions built into objects
-  - object.method(arg1,arg2,...) form
+  - `object.method(arg1,arg2,...)` form
   - use tab to show available methods
   - use shift+tab to show details of a method 
   - help(l.count) to show details of a method 
@@ -215,10 +215,10 @@ else:
 
 - Modules 
   - Packagaes are set of modules in a folder with one extra file 
-  - Package folder has *_ _ init _ _.py* which could be empty
+  - Package folder has *``__init__.py``* which could be empty
   - print `dir(module)` for available function 
   - `help(module.function)` for documentation
-  - `__all__ = ["func1", "func2"]` in *_ _ init _ _.py* to import specific functions
+  - `__all__ = ["func1", "func2"]` in *``__init__.py``* to import specific functions
   
 - Built-in functions
   - Python 3 use iterator for map, reduce and filter
