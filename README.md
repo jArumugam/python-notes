@@ -107,6 +107,7 @@ Notes from udemy course
   - no semi colons like in C++ 
 
   - if,elif,else statements
+  - Syntax:
   ```python  
 if case 1:
   perform action 1
@@ -117,7 +118,8 @@ else:
 ```
 
 - for loops
-```python
+  - syntax:
+  ```python
 for element in list_l:
   print element
 # prints elements in the list
@@ -134,7 +136,8 @@ for element in list_l:
   - in python 3, `for k,v in d.items():`  
     
 - while loops
-```python
+  - syntax: 
+  ```python
 while test:
   code statement 
 else: 
