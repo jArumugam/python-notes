@@ -109,21 +109,21 @@ Notes from udemy course
   - if,elif,else statements
   - Syntax:
   ```python  
-if case 1:
-  perform action 1
-elif case 2:
-  perform action 1
-else: 
-  perform action 3 
+  if case 1:
+    perform action 1
+  elif case 2:
+    perform action 1
+  else: 
+    perform action 3 
 ```
 
 - for loops
   - syntax:
   ```python
-for element in list_l:
-  print element
-# prints elements in the list
-```
+  for element in list_l:
+    print element
+  # prints elements in the list
+  ```
 - more for loops
   - `for element in string_l:` `print element` prints letters in the string 
   - tuples unpacking
@@ -138,10 +138,10 @@ for element in list_l:
 - while loops
   - syntax: 
   ```python
-while test:
-  code statement 
-else: 
-  final code statement
+  while test:
+    code statement 
+  else: 
+    final code statement
 ```
   - `break`, breaks out of closest enclosing loop
   - `continue`, continues to the top of closest enclosing loop 
