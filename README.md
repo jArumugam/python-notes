@@ -212,7 +212,21 @@ Notes from udemy course
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
   
 - Errors and exception handling
-
+  - syntax:
+  ```python
+   try:
+      You do your operations here...
+      ...
+   except ExceptionI:
+      If there is ExceptionI, then execute this block.
+   except ExceptionII:
+      If there is ExceptionII, then execute this block.
+      ...
+   else:
+      If there is no exception then execute this block.
+   ```
+   - `finally:` clode block will run irrespective of exceptions
+    
 - Modules 
   - Packagaes are set of modules in a folder with one extra file 
   - Package folder has *``__init__.py``* which could be empty
@@ -240,13 +254,91 @@ Notes from udemy course
     - `all(list)` to find if all satisfy condition. returns True or False
 
 - Decorators
-
+  - scope `globals()` and `local()`
+  - functions are objects
+  - `hello()` function could be assigned to a variable
+  - `greet = hello`
+  - `greet` is a seperate object. `hello` could be deleted
+  - functions within function possible
+  - `()` will execute the function
+  - this 
+  ```python
+    @new_decorator
+    def func_needs_decorator():
+      print "This function is in need of a Decorator"
+   ```
+  - is short form for
+  ```python
+    def new_decorator(func):
+       def wrap_func(): 
+         func()
+    return wrap_func
+    ```
+   - and
+   ```python
+      def func_needs_decorator():
+        print "This function is in need of a Decorator"
+   ```
+   - and
+   ```python
+      func_needs_decorator = new_decorator(func_needs_decorator)
+   ```
+   - together
+   - very useful in web frameworks like _Flask_ 
+   - [HW](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Decorators%20Homework.ipynb)
+   
 - Generators
+  - `yeild` instead of `return`
+  - proceeds next on demand/request
+  - doesn't load all the items in the memory
+  - suppose `g` is a generator
+  - `next(g)` will yeild the next element
+  - [stackoverflow generator](http://stackoverflow.com/questions/1756096/understanding-generators-in-python)
+  - [stackoverflow itertor](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
 
-- Capstone project
+- [Capstone projects list](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Final%20Capstone%20Projects/Final%20Capstone%20Project%20Ideas.ipynb)
 
 - Advanced modules
+- Collections module
+  - `from collections import Counter`
+  - `counter`
+  - dict subclass that helps count hash-able objects
+  - common patters
+  ```python
+    sum(c.values())                 # total of all counts
+    c.clear()                       # reset all counts
+    list(c)                         # list unique elements
+    set(c)                          # convert to a set
+    dict(c)                         # convert to a regular dictionary
+    c.items()                       # convert to a list of (elem, cnt) pairs
+    Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
+    c.most_common()[:-n-1:-1]       # n least common elements
+    c += Counter()                  # remove zero and negative counts
+  ```
+  - `defaultdict`
+  - never raises key error
+  - can be initialized `d = defaultdict(lambda: 0)`
+  - `OrderedDcit`
+  - remembers the order in which elements are added
+  - `namedtuple`
+  - hard to remember tuple indices
+  - namedtuple allows numerical as well as named indices
+  - `Dog = namedtuple('Dog','age breed name')`
+  - `sam = Dog(age=2,breed='Lab',name='Sammy')`
+  - `sam[0]` or `sam.age` works 
 
+- `Datetime`
+
+- Debugger `pdb`
+
+- `timeit`
+
+- Regular expressions `re`
+
+- `StringIO`
+
+- FAQ
+  
 - Advanced objects and data structures
 
 - GUIs 
