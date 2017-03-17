@@ -347,11 +347,26 @@ Notes from udemy course
   - `re.search(pattern,string)` returns a _match object_
   - the match object has lots of methods 
   - [re docs](https://docs.python.org/2/library/re.html)
-
+  - `re.split(splitterm, phrase)` returns a split list without the splitterm
+  - `re.findall(pattern,string)` returns list of pattern in string
+  - Repitition 
+  - Character sets 
+  - Exclusion 
+  - Escape Codes 
+  
 - `StringIO`
+  - Implements an in-memory file like object
+  - `f = StringIO.StringIO(string)` creates a file object from string 
+  - `f.read()`, `f.write()`, `f.seek()` will work
+  - `cStringIO` is faster 
 
 - FAQ
   
 - Advanced objects and data structures
+  - Numbers
+  - Strings
+  - Sets
+  - Dictionaries
+  - Lists 
 
 - GUIs 
