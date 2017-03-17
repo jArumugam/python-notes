@@ -30,8 +30,8 @@ Notes from udemy course
   - s.append(), s.split(','), ... 
   
 - Print Formatting
-  - `print 'bla bra %s %1.3f' %('Hi',3.1456)`
-  - `print 'bra bra {x} here {x} there {y}'.format(x='inserted text', y = 3.14)`
+  - `print 'bla bla %s %1.3f' %('Hi',3.1456)`
+  - `print 'bla bla {x} here {x} there {y}'.format(x='inserted text', y = 3.14)`
 
 - Lists
   - List can hold multiple datatypes. ['Hi', 1, 3.14]
@@ -61,8 +61,11 @@ Notes from udemy course
   - f.seek(0) sends cursor back to zero
   - f.readlines() returns list of strings  
   - `%%writefile new.text` to write in file
-  - ```for lines in open('new.text'):
-      print lines```
+  - reading lines 
+  ```
+    for lines in open('new.text'):
+      print lines 
+  ```
   - will print lines
   - Alternatively, for words in open('new.text'): will also  print lines 
   - won't read entire file in memory 
