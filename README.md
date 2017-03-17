@@ -362,14 +362,35 @@ Notes from udemy course
   - `f = StringIO.StringIO(string)` creates a file object from string 
   - `f.read()`, `f.write()`, `f.seek()` will work
   - `cStringIO` is faster 
-
-- FAQ
   
 - Advanced objects and data structures
   - Numbers
+    - hex(), bin(), pow(), abs(), round(num, decimals) 
   - Strings
+    - Changing case: s.capitalize(), s.uper(), s.lower()
+    - Counting and Finding: s.count(), s.find()
+    - Formatting: s.expandtabs(), s.center() 
+    - Checks: s.isalnum(), s.alpha(), s.islower(), s.isspace(), s.istitle(), s.isupper(), s.endswith()
+    - RegEx: `s.split()` splits at every occurance
+    - RegEx: `s.partition()` splits at first occurance 
   - Sets
+    - no duplicate elements
+    - s.add(), s.clear(), s.copy()
+    - s.difference(), s1.difference_update(s2) 
+    - s.intersection(), s.intersection_update() 
+    - s1.isdisjoint(s2)
+    - s.issubset(), s.isupperset()
+    - s1.symmetric_difference(s2)
+    - s.union()
+    - `s1.update(s2)` updates with union 
   - Dictionaries
+    - Dictionary comprehension works 
+    - d.iteritems() return both keys and values
+    - d.itervalues() returns values
+    - d.iterkeys()  returns keys 
+    - d.viewvalues(), d.viewkeys() 
   - Lists 
+    - l.append(), l.count(), l.extend(), l.index()
+    - l.pop(), l.remove(), l.reverse(), l.sort()
 
 - GUIs 
