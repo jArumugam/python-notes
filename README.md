@@ -109,13 +109,13 @@ Notes from udemy course
   - if,elif,else statements
   - Syntax:
   ```python  
-  if case 1:
-    perform action 1
-  elif case 2:
-    perform action 1
-  else: 
-    perform action 3 
-```
+    if case 1:
+      perform action 1
+    elif case 2:
+      perform action 1
+    else: 
+      perform action 3 
+  ```
 
 - for loops
   - syntax:
@@ -124,25 +124,25 @@ Notes from udemy course
     print element
   # prints elements in the list
   ```
-- more for loops
-  - `for element in string_l:` `print element` prints letters in the string 
-  - tuples unpacking
-  - l = [(2,4),(6,8),(10,12)] 
-  - `for tup in l:` `print tup` prints the tuples
-  - `for (t1,t2) in l:` `print t1` prints first element in the tuple 
-  - `for item in dictionary_d:` `print item` prints keys in the dictionary
-  - in python 2, `for k,v in d.iteritems():` 
-  - iteritems() creates a *generator* (comes later)
-  - in python 3, `for k,v in d.items():`  
+  - more for loops
+    - `for element in string_l:` `print element` prints letters in the string 
+    - tuples unpacking
+   - l = [(2,4),(6,8),(10,12)] 
+    - `for tup in l:` `print tup` prints the tuples
+    - `for (t1,t2) in l:` `print t1` prints first element in the tuple 
+    - `for item in dictionary_d:` `print item` prints keys in the dictionary
+    - in python 2, `for k,v in d.iteritems():` 
+    - iteritems() creates a *generator* (comes later)
+    - in python 3, `for k,v in d.items():`  
     
 - while loops
   - syntax: 
   ```python
-  while test:
-    code statement 
-  else: 
-    final code statement
-```
+    while test:
+      code statement 
+    else: 
+      final code statement
+  ```
   - `break`, breaks out of closest enclosing loop
   - `continue`, continues to the top of closest enclosing loop 
   - `pass`, does nothing at all 
