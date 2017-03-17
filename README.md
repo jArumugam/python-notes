@@ -188,7 +188,7 @@ Notes from udemy course
   - map(function, sequence_iterable) 
   - map(lambda_expression, sequence_iterable)
 
-- Nestes statement and scope
+- Nested statement and scope
   - **LEGB**
   - Local 
   - Enclosing function
@@ -316,24 +316,37 @@ Notes from udemy course
     c += Counter()                  # remove zero and negative counts
   ```
   - `defaultdict`
-  - never raises key error
-  - can be initialized `d = defaultdict(lambda: 0)`
+    - never raises key error
+    - can be initialized `d = defaultdict(lambda: 0)`
   - `OrderedDcit`
-  - remembers the order in which elements are added
+    - remembers the order in which elements are added
   - `namedtuple`
-  - hard to remember tuple indices
-  - namedtuple allows numerical as well as named indices
-  - `Dog = namedtuple('Dog','age breed name')`
-  - `sam = Dog(age=2,breed='Lab',name='Sammy')`
-  - `sam[0]` or `sam.age` works 
+    - hard to remember tuple indices
+    - namedtuple allows numerical as well as named indices
+    - `Dog = namedtuple('Dog','age breed name')`
+    - `sam = Dog(age=2,breed='Lab',name='Sammy')`
+    - `sam[0]` or `sam.age` works 
+  - [collections docs](https://docs.python.org/2/library/collections.html#)
 
 - `Datetime`
+  - [datetime docs](https://docs.python.org/2/library/datetime.html)
 
 - Debugger `pdb`
+  - `import pdb`
+  - `pdb.settrace()` sets a _breakpoint_
+  - press _q_ to quit the debugger 
+  - [pdb docs](https://docs.python.org/3/library/pdb.html)
 
 - `timeit`
-
+  - `timeit.timeit('string operation', n=executionNo)` prints time for execution
+  - `%timeit <operation>` builtin magic for notebooks 
+  - `map` seems faster compared to list comprehension 
+  
 - Regular expressions `re`
+  - text matching patterns 
+  - `re.search(pattern,string)` returns a _match object_
+  - the match object has lots of methods 
+  - [re docs](https://docs.python.org/2/library/re.html)
 
 - `StringIO`
 
