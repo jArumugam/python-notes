@@ -139,7 +139,6 @@ Notes from udemy course
 - in python 3, `for k,v in d.items():`  
     
 ### while loops
-- syntax: 
 ```python
   while test:
     code statement 
@@ -158,63 +157,63 @@ Notes from udemy course
 - in python 2, xrange() returns a generator. not saved in memory. 
 - in python 3, range() returns a generator. not saves in memory. 
  
-- list comprehension
-  - creates list. flatten outs a for loop within a list
-  - `[ element_function_of_item for item in list_l ]`
-  - `lst = [x for x in 'word']` creates ['w', 'o', 'r', 'd']
-  - `lst = [x**2 for x in range(0,11)]`
-  - conditions work 
-  - `[ element_function_of_item for item in list_l if condition_on_item]`
-  - nested lists work
-  - `[ x**2 for x in [x**2 for x in xrange(1,11) ]]`
-  - generator comprehension and dictionary comprehension
+### list comprehension
+- creates list. flatten outs a for loop within a list
+- `[ element_function_of_item for item in list_l ]`
+- `lst = [x for x in 'word']` creates ['w', 'o', 'r', 'd']
+- `lst = [x**2 for x in range(0,11)]`
+- conditions work 
+- `[ element_function_of_item for item in list_l if condition_on_item]`
+- nested lists work
+- `[ x**2 for x in [x**2 for x in xrange(1,11) ]]`
+- generator comprehension and dictionary comprehension
   
-- Methods
-  - methods are functions built into objects
-  - `object.method(arg1,arg2,...)` form
-  - use tab to show available methods
-  - use shift+tab to show details of a method 
-  - help(l.count) to show details of a method 
-  - methods as having an argument 'self' referring to the object itself.
+### Methods
+- methods are functions built into objects
+- `object.method(arg1,arg2,...)` form
+- use tab to show available methods
+- use shift+tab to show details of a method 
+- help(l.count) to show details of a method 
+- methods as having an argument 'self' referring to the object itself.
   
-- Functions
-  - 'block of reusable statements'
+### Functions
+- 'block of reusable statements'
   
-- lambda expressions
-  - `lambda num: num**2`returns a function
-  - could be saved in a function variable name
-  - `square = lambda num: num**2` and call `square(2)`
-  - works with multiple arguments, `adder = lambda x,y : x+y`
-  - `adder(2,3)`
-  - [more notes](https://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/)
-  - works well with map, reduce, and filter 
-  - map(function, sequence_iterable) 
-  - map(lambda_expression, sequence_iterable)
+### lambda expressions
+- `lambda num: num**2`returns a function
+- could be saved in a function variable name
+- `square = lambda num: num**2` and call `square(2)`
+- works with multiple arguments, `adder = lambda x,y : x+y`
+- `adder(2,3)`
+- [more notes](https://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/)
+- works well with map, reduce, and filter 
+- map(function, sequence_iterable) 
+- map(lambda_expression, sequence_iterable)
 
-- Nested statement and scope
-  - **LEGB**
-  - Local 
-  - Enclosing function
-  - Global 
-  - Built-in 
-  - `globals()` and `locals()` will return respective variables
-  - functions are objects and hence could be assigned variable names 
+### Nested statement and scope
+- **LEGB**
+- Local 
+- Enclosing function
+- Global 
+- Built-in 
+- `globals()` and `locals()` will return respective variables
+- functions are objects and hence could be assigned variable names 
   
-- Milestone project 
+### Milestone project 
 
-- OOPS
-  - Object
-  - Class 
-  - Attribute
-  - Method
-  - class object attribute
-  - Inheritance
-  - base class and derived class 
-  - Also check 
+### OOPS
+- Object
+- Class 
+- Attribute
+- Method
+- class object attribute
+- Inheritance
+- base class and derived class 
+- Also check 
   - [Python OOPs Tutorial point](http://www.tutorialspoint.com/python/python_classes_objects.htm)
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
   
-- Errors and exception handling
+### Errors and exception handling
   - syntax:
   ```python
    try:
