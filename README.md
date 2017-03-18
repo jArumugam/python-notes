@@ -214,7 +214,6 @@ Notes from udemy course
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
   
 ### Errors and exception handling
-  - syntax:
   ```python
    try:
       You do your operations here...
@@ -227,169 +226,174 @@ Notes from udemy course
    else:
       If there is no exception then execute this block.
    ```
-   - `finally:` clode block will run irrespective of exceptions
+ - `finally:` clode block will run irrespective of exceptions
     
-- Modules 
-  - Packagaes are set of modules in a folder with one extra file 
-  - Package folder has *``__init__.py``* which could be empty
-  - print `dir(module)` for available function 
-  - `help(module.function)` for documentation
-  - `__all__ = ["func1", "func2"]` in *``__init__.py``* to import specific functions
+### Modules 
+- Packagaes are set of modules in a folder with one extra file 
+- Package folder has *``__init__.py``* which could be empty
+- print `dir(module)` for available function 
+- `help(module.function)` for documentation
+- `__all__ = ["func1", "func2"]` in *``__init__.py``* to import specific functions
   
-- Built-in functions
-  - Python 3 use iterator for map, reduce and filter
-  - Python 2 use lists for map, reduce and filter
-  - map() `map(func, iterable)` 
-    - applies function to all elements in iterable
-  - reduce() `map(func, iterable)` 
-    - applies function recursively
-  - filter() `filter(condition, list)` return list that satisfies condition
-  - zip() `zip(listA,listB)` return list of tuples (listAele, listBele)
-    - smallest list decides length
-  - enumerate() `enumerate(iterable)` returns tuple (eleNum, iterVal)
-  - complex() `complex(a,b)` or `complex('a+bj')` returns complex number 
-  - any() - `any(list)` to find if any satisfies condition. returns True or False
-    - I thought any(condition, list) to find indices that satisfies condition
-    - use list comprehension 
-    - `filter()` does this 
-  - all() 
-    - `all(list)` to find if all satisfy condition. returns True or False
+### Built-in functions
+- Python 3 use iterator for map, reduce and filter
+- Python 2 use lists for map, reduce and filter
+- map() `map(func, iterable)` 
+  - applies function to all elements in iterable
+- reduce() `map(func, iterable)` 
+  - applies function recursively
+- filter() `filter(condition, list)` return list that satisfies condition
+- zip() `zip(listA,listB)` return list of tuples (listAele, listBele)
+  - smallest list decides length
+- enumerate() `enumerate(iterable)` returns tuple (eleNum, iterVal)
+- complex() `complex(a,b)` or `complex('a+bj')` returns complex number 
+- any() - `any(list)` to find if any satisfies condition. returns True or False
+  - I thought any(condition, list) to find indices that satisfies condition
+  - use list comprehension 
+  - `filter()` does this 
+- all() 
+  - `all(list)` to find if all satisfy condition. returns True or False
 
-- Decorators
-  - scope `globals()` and `local()`
-  - functions are objects
-  - `hello()` function could be assigned to a variable
-  - `greet = hello`
-  - `greet` is a seperate object. `hello` could be deleted
-  - functions within function possible
-  - `()` will execute the function
-  - this 
-  ```python
-    @new_decorator
-    def func_needs_decorator():
-      print "This function is in need of a Decorator"
-   ```
-  - is short form for
-  ```python
-    def new_decorator(func):
-       def wrap_func(): 
-         func()
+### Decorators
+- scope `globals()` and `local()`
+- functions are objects
+- `hello()` function could be assigned to a variable
+- `greet = hello`
+- `greet` is a seperate object. `hello` could be deleted
+- functions within function possible
+- `()` will execute the function
+- this 
+```python
+  @new_decorator
+  def func_needs_decorator():
+    print "This function is in need of a Decorator"
+```
+- is short form for
+```python
+  def new_decorator(func):
+    def wrap_func(): 
+      func()
     return wrap_func
-    ```
-   - and
-   ```python
-      def func_needs_decorator():
-        print "This function is in need of a Decorator"
-   ```
-   - and
-   ```python
-      func_needs_decorator = new_decorator(func_needs_decorator)
-   ```
-   - together
-   - very useful in web frameworks like _Flask_ 
-   - [HW](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Decorators%20Homework.ipynb)
+```
+- and
+```python
+  def func_needs_decorator():
+    print "This function is in need of a Decorator"
+```
+- and
+```python
+  func_needs_decorator = new_decorator(func_needs_decorator)
+```
+- together
+- very useful in web frameworks like _Flask_ 
+- [HW](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Decorators%20Homework.ipynb)
    
-- Generators
-  - `yeild` instead of `return`
-  - proceeds next on demand/request
-  - doesn't load all the items in the memory
-  - suppose `g` is a generator
-  - `next(g)` will yeild the next element
-  - [stackoverflow generator](http://stackoverflow.com/questions/1756096/understanding-generators-in-python)
-  - [stackoverflow itertor](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
+### Generators
+- **`yeild` instead of `return`**
+- This is the holy grail! 
+- proceeds next on demand/request
+- doesn't load all the items in the memory
+- suppose `g` is a generator
+- `next(g)` will yeild the next element
+- [stackoverflow generator](http://stackoverflow.com/questions/1756096/understanding-generators-in-python)
+- [stackoverflow itertor](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
 
-- [Capstone projects list](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Final%20Capstone%20Projects/Final%20Capstone%20Project%20Ideas.ipynb)
+### [Capstone projects list](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Final%20Capstone%20Projects/Final%20Capstone%20Project%20Ideas.ipynb)
 
-- Advanced modules
-- Collections module
-  - `from collections import Counter`
-  - `counter`
-  - dict subclass that helps count hash-able objects
-  - common patters
-  ```python
-    sum(c.values())                 # total of all counts
-    c.clear()                       # reset all counts
-    list(c)                         # list unique elements
-    set(c)                          # convert to a set
-    dict(c)                         # convert to a regular dictionary
-    c.items()                       # convert to a list of (elem, cnt) pairs
-    Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
-    c.most_common()[:-n-1:-1]       # n least common elements
-    c += Counter()                  # remove zero and negative counts
-  ```
-  - `defaultdict`
-    - never raises key error
-    - can be initialized `d = defaultdict(lambda: 0)`
-  - `OrderedDcit`
-    - remembers the order in which elements are added
-  - `namedtuple`
-    - hard to remember tuple indices
-    - namedtuple allows numerical as well as named indices
-    - `Dog = namedtuple('Dog','age breed name')`
-    - `sam = Dog(age=2,breed='Lab',name='Sammy')`
-    - `sam[0]` or `sam.age` works 
-  - [collections docs](https://docs.python.org/2/library/collections.html#)
+## Advanced modules
+### Collections module
+- `from collections import Counter`
+- `counter`
+- dict subclass that helps count hash-able objects
+- common patters
+```python
+  sum(c.values())                 # total of all counts
+  c.clear()                       # reset all counts
+  list(c)                         # list unique elements
+  set(c)                          # convert to a set
+  dict(c)                         # convert to a regular dictionary
+  c.items()                       # convert to a list of (elem, cnt) pairs
+  Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
+  c.most_common()[:-n-1:-1]       # n least common elements
+  c += Counter()                  # remove zero and negative counts
+```
+- `defaultdict`
+  - never raises key error
+  - can be initialized `d = defaultdict(lambda: 0)`
+- `OrderedDcit`
+  - remembers the order in which elements are added
+- `namedtuple`
+  - hard to remember tuple indices
+  - namedtuple allows numerical as well as named indices
+  - `Dog = namedtuple('Dog','age breed name')`
+  - `sam = Dog(age=2,breed='Lab',name='Sammy')`
+  - `sam[0]` or `sam.age` works 
+- [collections docs](https://docs.python.org/2/library/collections.html#)
 
-- `Datetime`
-  - [datetime docs](https://docs.python.org/2/library/datetime.html)
+### `Datetime`
+- [datetime docs](https://docs.python.org/2/library/datetime.html)
 
-- Debugger `pdb`
-  - `import pdb`
-  - `pdb.settrace()` sets a _breakpoint_
-  - press _q_ to quit the debugger 
-  - [pdb docs](https://docs.python.org/3/library/pdb.html)
+### Debugger `pdb`
+- `import pdb`
+- `pdb.settrace()` sets a _breakpoint_
+- press _q_ to quit the debugger 
+- [pdb docs](https://docs.python.org/3/library/pdb.html)
 
-- `timeit`
-  - `timeit.timeit('string operation', n=executionNo)` prints time for execution
-  - `%timeit <operation>` builtin magic for notebooks 
-  - `map` seems faster compared to list comprehension 
+### `timeit`
+- `timeit.timeit('string operation', n=executionNo)` prints time for execution
+- `%timeit <operation>` builtin magic for notebooks 
+- `map` seems faster compared to list comprehension 
   
-- Regular expressions `re`
-  - text matching patterns 
-  - `re.search(pattern,string)` returns a _match object_
-  - the match object has lots of methods 
-  - [re docs](https://docs.python.org/2/library/re.html)
-  - `re.split(splitterm, phrase)` returns a split list without the splitterm
-  - `re.findall(pattern,string)` returns list of pattern in string
-  - Repitition 
-  - Character sets 
-  - Exclusion 
-  - Escape Codes 
+### Regular expressions `re`
+- text matching patterns 
+- `re.search(pattern,string)` returns a _match object_
+- the match object has lots of methods 
+- [re docs](https://docs.python.org/2/library/re.html)
+- `re.split(splitterm, phrase)` returns a split list without the splitterm
+- `re.findall(pattern,string)` returns list of pattern in string
+- Repitition 
+- Character sets 
+- Exclusion 
+- Escape Codes 
   
-- `StringIO`
-  - Implements an in-memory file like object
-  - `f = StringIO.StringIO(string)` creates a file object from string 
-  - `f.read()`, `f.write()`, `f.seek()` will work
-  - `cStringIO` is faster 
+### `StringIO`
+- Implements an in-memory file like object
+- `f = StringIO.StringIO(string)` creates a file object from string 
+- `f.read()`, `f.write()`, `f.seek()` will work
+- `cStringIO` is faster 
   
-- Advanced objects and data structures
-  - Numbers
-    - hex(), bin(), pow(), abs(), round(num, decimals) 
-  - Strings
-    - Changing case: s.capitalize(), s.uper(), s.lower()
-    - Counting and Finding: s.count(), s.find()
-    - Formatting: s.expandtabs(), s.center() 
-    - Checks: s.isalnum(), s.alpha(), s.islower(), s.isspace(), s.istitle(), s.isupper(), s.endswith()
-    - RegEx: `s.split()` splits at every occurance
-    - RegEx: `s.partition()` splits at first occurance 
-  - Sets
-    - no duplicate elements
-    - s.add(), s.clear(), s.copy()
-    - s.difference(), s1.difference_update(s2) 
-    - s.intersection(), s.intersection_update() 
-    - s1.isdisjoint(s2)
-    - s.issubset(), s.isupperset()
-    - s1.symmetric_difference(s2)
-    - s.union()
-    - `s1.update(s2)` updates with union 
-  - Dictionaries
-    - Dictionary comprehension works 
-    - d.iteritems() return both keys and values
-    - d.itervalues() returns values
-    - d.iterkeys()  returns keys 
-    - d.viewvalues(), d.viewkeys() 
-  - Lists 
-    - l.append(), l.count(), l.extend(), l.index()
-    - l.pop(), l.remove(), l.reverse(), l.sort()
+## Advanced objects and data structures
+### Numbers
+- hex(), bin(), pow(), abs(), round(num, decimals) 
 
-- GUIs 
+### Strings
+- Changing case: s.capitalize(), s.uper(), s.lower()
+- Counting and Finding: s.count(), s.find()
+  - Formatting: s.expandtabs(), s.center() 
+  - Checks: s.isalnum(), s.alpha(), s.islower(), s.isspace(), s.istitle(), s.isupper(), s.endswith()
+  - RegEx: `s.split()` splits at every occurance
+  - RegEx: `s.partition()` splits at first occurance 
+  
+### Sets
+- no duplicate elements
+  - s.add(), s.clear(), s.copy()
+  - s.difference(), s1.difference_update(s2) 
+  - s.intersection(), s.intersection_update() 
+  - s1.isdisjoint(s2)
+  - s.issubset(), s.isupperset()
+  - s1.symmetric_difference(s2)
+  - s.union()
+  - `s1.update(s2)` updates with union 
+  
+### Dictionaries
+  - Dictionary comprehension works 
+  - d.iteritems() return both keys and values
+  - d.itervalues() returns values
+  - d.iterkeys()  returns keys 
+  - d.viewvalues(), d.viewkeys() 
+
+### Lists 
+  - l.append(), l.count(), l.extend(), l.index()
+  - l.pop(), l.remove(), l.reverse(), l.sort()
+
+### GUIs 
