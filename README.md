@@ -1,4 +1,4 @@
-# python-notes
+## python-notes
 Notes from udemy course 
 
 ### Relevant links 
@@ -8,7 +8,7 @@ Notes from udemy course
 
 - [Instructor's github repos](https://github.com/jmportilla?tab=repositories) 
 
-### Sec01 and Sec02  
+## Sec01 and Sec02  
 - JupyterIntro 
 - Python 2 and 3 difference
 - git Intro: [Learn git online](https://try.github.io/levels/1/challenges/1)
@@ -122,7 +122,6 @@ Notes from udemy course
 ```
 
 ### for loops
-
 ```python
   for element in list_l:
     print element
@@ -199,7 +198,7 @@ Notes from udemy course
 - `globals()` and `locals()` will return respective variables
 - functions are objects and hence could be assigned variable names 
   
-### Milestone project 
+## Milestone project 
 
 ### OOPS
 - Object
@@ -298,7 +297,7 @@ Notes from udemy course
 - [stackoverflow generator](http://stackoverflow.com/questions/1756096/understanding-generators-in-python)
 - [stackoverflow itertor](http://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)
 
-### [Capstone projects list](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Final%20Capstone%20Projects/Final%20Capstone%20Project%20Ideas.ipynb)
+## [Capstone projects list](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Final%20Capstone%20Projects/Final%20Capstone%20Project%20Ideas.ipynb)
 
 ## Advanced modules
 ### Collections module
