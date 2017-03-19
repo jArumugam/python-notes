@@ -97,8 +97,8 @@ Notes from udemy course
 - <> not equal
 - < left lesser than right
 - > left greater than right
-- <= lesser than of equal to
-- >= greater than or equal to 
+- \<= lesser than of equal to
+- \>= greater than or equal to 
   
 ### Chained comparison operator
 - `1 < 2 < 3` is same as `1 < 2 and 2 < 3` 
