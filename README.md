@@ -96,7 +96,7 @@ Notes from udemy course
 - != not equal
 - <> not equal
 - < left lesser than right
-- > left greater than right
+- \> left greater than right
 - \<= lesser than of equal to
 - \>= greater than or equal to 
   
