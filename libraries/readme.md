@@ -7,6 +7,7 @@ Let me know if you find a missing source.
 - [Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/v0.1/)
 
 # Matlpotlib
+- [Pyplot](http://matplotlib.org/api/pyplot_api.html)
 
 # Seaborn
 - [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
