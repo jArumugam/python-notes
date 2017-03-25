@@ -9,8 +9,10 @@ Let me know if you find a missing source.
 # Matlpotlib
 
 # Seaborn
+- [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
 # Sklearn
+- [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
 
 # NetworkX
 
