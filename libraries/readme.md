@@ -1,4 +1,6 @@
-Library tests
+Library tests and tutorials.
+These are codes mostly from documentation and tutorials.
+Let me know if you find a missing source. 
 
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
