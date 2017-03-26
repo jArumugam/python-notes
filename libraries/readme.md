@@ -18,6 +18,7 @@ Let me know if you find a missing source.
   - Merge, Merge on index, Concatenate, Combine 
   - Reshape, Pivot, Duplicates
   - Mapping, Replace, Rename index
+  - [Categorical Data](http://pandas.pydata.org/pandas-docs/stable/categorical.html)
   - Binning, Outliers
   - Permutation 
   - groupby on DataFrames
