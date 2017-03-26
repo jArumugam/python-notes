@@ -9,6 +9,7 @@ Let me know if you find a missing source.
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
 - [Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/v0.1/)
+- [Pandas Udemy Portilla Notes](https://github.com/jmportilla/Udemy-notes)
 
 # Matlpotlib
 - [Pyplot](http://matplotlib.org/api/pyplot_api.html)
