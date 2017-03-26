@@ -41,3 +41,5 @@ Let me know if you find a missing source.
 
 # Snap.py
 
+# Python Books
+- [Python Tips](http://book.pythontips.com/en/latest/index.html)
