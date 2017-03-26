@@ -8,11 +8,12 @@ Notes from udemy course
 
 - [Instructor's github repos](https://github.com/jmportilla?tab=repositories) 
 
-## Sec01 and Sec02  
+## Introduction  
 - JupyterIntro 
 - Python 2 and 3 difference
 - git Intro: [Learn git online](https://try.github.io/levels/1/challenges/1)
 
+## Data Types
 ### Numbers 
 
 ### String 
@@ -82,14 +83,14 @@ Notes from udemy course
   - 1 > 2 is a boolean
   - b = None is a placeholder
   
-### Practice resourses
+## Practice resourses
 - [Basic practice](http://codingbat.com/python)
 - [Math and harder](https://projecteuler.net/archives)
 - [List of problems](http://www.codeabbey.com/index/task_list)
 - [Sureddit daily practice](https://www.reddit.com/r/dailyprogrammer)
 - [Tough problems](http://www.pythonchallenge.com/)
     
-### Objects and Data Structures
+## Objects and Data Structures
 
 ### Comparison Operators
 - == equal to
@@ -106,7 +107,7 @@ Notes from udemy course
 - and
 - or 
   
-### Statements
+## Statements
 - python gets rid of () and {} using : and indentation. more readable. 
 - no semi colons like in C++ 
 
@@ -167,7 +168,7 @@ Notes from udemy course
 - `[ x**2 for x in [x**2 for x in xrange(1,11) ]]`
 - generator comprehension and dictionary comprehension
   
-### Methods
+## Methods
 - methods are functions built into objects
 - `object.method(arg1,arg2,...)` form
 - use tab to show available methods
@@ -185,7 +186,7 @@ Notes from udemy course
 - works with multiple arguments, `adder = lambda x,y : x+y`
 - `adder(2,3)`
 - [more notes](https://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/)
-- works well with map, reduce, and filter 
+- works well with [map, reduce, and filter](http://book.pythontips.com/en/latest/map_filter.html) 
 - map(function, sequence_iterable) 
 - map(lambda_expression, sequence_iterable)
 
@@ -200,7 +201,7 @@ Notes from udemy course
   
 ## Milestone project 
 
-### OOPS
+## OOPS
 - Object
 - Class 
 - Attribute
@@ -212,7 +213,7 @@ Notes from udemy course
   - [Python OOPs Tutorial point](http://www.tutorialspoint.com/python/python_classes_objects.htm)
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
   
-### Errors and exception handling
+## Errors and exception handling
   ```python
    try:
       You do your operations here...
@@ -227,16 +228,20 @@ Notes from udemy course
    ```
  - `finally:` clode block will run irrespective of exceptions
     
-### Modules 
+## Modules 
 - Packagaes are set of modules in a folder with one extra file 
 - Package folder has *``__init__.py``* which could be empty
 - print `dir(module)` for available function 
 - `help(module.function)` for documentation
 - `__all__ = ["func1", "func2"]` in *``__init__.py``* to import specific functions
   
-### Built-in functions
+## Built-in functions
 - Python 3 use iterator for map, reduce and filter
 - Python 2 use lists for map, reduce and filter
+- [map, reduce, and filter](http://book.pythontips.com/en/latest/map_filter.html) 
+- map(function, sequence_iterable) 
+- map(lambda_expression, sequence_iterable)
+- Also check [Series.map()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.map.html)
 - map() `map(func, iterable)` 
   - applies function to all elements in iterable
 - reduce() `map(func, iterable)` 
@@ -253,7 +258,7 @@ Notes from udemy course
 - all() 
   - `all(list)` to find if all satisfy condition. returns True or False
 
-### Decorators
+## Decorators
 - scope `globals()` and `local()`
 - functions are objects
 - `hello()` function could be assigned to a variable
@@ -287,7 +292,7 @@ Notes from udemy course
 - very useful in web frameworks like _Flask_ 
 - [HW](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Decorators%20Homework.ipynb)
    
-### Generators
+## Generators
 - **`yeild` instead of `return`**
 - This is the holy grail! 
 - proceeds next on demand/request
@@ -343,7 +348,7 @@ Notes from udemy course
 - `%timeit <operation>` builtin magic for notebooks 
 - `map` seems faster compared to list comprehension 
   
-### Regular expressions `re`
+## Regular expressions `re`
 - text matching patterns 
 - `re.search(pattern,string)` returns a _match object_
 - the match object has lots of methods 
@@ -395,4 +400,4 @@ Notes from udemy course
   - l.append(), l.count(), l.extend(), l.index()
   - l.pop(), l.remove(), l.reverse(), l.sort()
 
-### GUIs 
+## GUIs 
