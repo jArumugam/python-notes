@@ -11,22 +11,23 @@ Let me know if you find a missing source.
 - [Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/v0.1/)
 - [Pandas Udemy Portilla Notes](https://github.com/jmportilla/Udemy-notes)
 - [10 Minutes to Pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
-  - Array, Series, DataFrames
-  - Index, Reindex, Drop, Select/slice, Alignment
-  - Rank, Sort, Summary, Missing Data
-  - Index Hierarchy
-  - Input and output
-  - Merge, Merge on index, Concatenate, Combine 
-  - Reshape, Pivot, Duplicates
-  - Mapping, Replace, Rename index
-  - [Categorical Data](http://pandas.pydata.org/pandas-docs/stable/categorical.html)
-  - Binning, Outliers
-  - Permutation 
-  - groupby on DataFrames
-  - groupby on Dict and Series
-  - Aggregate
-  - Splitting, Applying, Combining
-  - Cross-Tabulation 
+
+- Array, Series, DataFrames
+- Index, Reindex, Drop, Select/slice, Alignment
+- Rank, Sort, Summary, Missing Data
+- Index Hierarchy
+- Input and output
+- Merge, Merge on index, Concatenate, Combine 
+- Reshape, Pivot, Duplicates
+- Mapping, Replace, Rename index
+- [Categorical Data](http://pandas.pydata.org/pandas-docs/stable/categorical.html)
+- Binning, Outliers
+- Permutation 
+- groupby on DataFrames
+- groupby on Dict and Series
+- Aggregate
+- Splitting, Applying, Combining
+- Cross-Tabulation 
 
 # Matlpotlib
 - [Pyplot](http://matplotlib.org/api/pyplot_api.html)
