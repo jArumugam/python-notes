@@ -45,3 +45,5 @@ Let me know if you find a missing source.
 # Python Books
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
+
+# [SQL in MODE](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/)
