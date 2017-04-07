@@ -47,7 +47,8 @@ Let me know if you find a missing source.
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
 
 # SQL
-- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter, [w3schools](https://www.w3schools.com/sql/default.asp)
+- Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
+- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
 1. SELECT
 2. FROM
 3. WHERE
@@ -58,6 +59,6 @@ Let me know if you find a missing source.
 - CASE
 - JOIN: Outer, INNER, Left, Right, FULL
 - JOIN: UNION, Self
-- [MODE Adv](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
+- [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
 
   
