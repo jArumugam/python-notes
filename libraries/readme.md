@@ -60,5 +60,5 @@ Let me know if you find a missing source.
 - JOIN: Outer, INNER, Left, Right, FULL
 - JOIN: UNION, Self
 - [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
-
+- [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
   
