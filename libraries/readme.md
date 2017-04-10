@@ -47,6 +47,9 @@ Let me know if you find a missing source.
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 
+# Parsing
+- [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
+
 # SQL
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
 - Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
