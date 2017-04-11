@@ -65,4 +65,18 @@ Let me know if you find a missing source.
 - JOIN: UNION, Self
 - [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
 - [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
-  
+
+
+# Git Tutorials
+1. There are repos 
+2. There is a master branch
+3. To make changes, you create another branch (_working version_)
+4. Change and make a commit (_saved changes_)
+5. Open pull request (_propose changes_ from a branch)
+6. Merge pull request (_add changes_ in master branch)
+7. Delete version branch 
+
+- [Git tutorial](https://try.github.io/levels/1/challenges/1) 
+- [Github guides](https://guides.github.com/)
+- [How to use git](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
+- [Pro Git Book](https://git-scm.com/book/en/v2)  
