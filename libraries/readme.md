@@ -50,6 +50,12 @@ Let me know if you find a missing source.
 # Parsing
 - [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
 
+# Unix
+- [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
+
+# RegEx
+- [RE](http://www.zytrax.com/tech/web/regex.htm)
+
 # SQL
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
 - Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
