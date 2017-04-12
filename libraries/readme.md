@@ -2,6 +2,11 @@ Library tests and tutorials.
 These are codes mostly from documentation and tutorials.
 Let me know if you find a missing source. 
 
+# Selected Python Books
+- [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
+- [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
+- [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
+
 # Numpy
 
 # Scipy
@@ -41,11 +46,6 @@ Let me know if you find a missing source.
 # NetworkX
 
 # Snap.py
-
-# Python Books
-- [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
-- [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
-- [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 
 # Parsing
 - [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
