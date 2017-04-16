@@ -54,7 +54,9 @@ Let me know if you find a missing source.
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
 
 # RegEx
-- [RE](http://www.zytrax.com/tech/web/regex.htm)
+- [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
+- [RE Python docs], RE Python [HOWTO](https://docs.python.org/2/howto/regex.html#regex-howto)
+- Metacharacters . ^ $ * + ? { } [ ] \ | ( )
 
 # SQL
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
