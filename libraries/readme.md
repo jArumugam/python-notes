@@ -33,6 +33,10 @@ Let me know if you find a missing source.
   - Splitting, Applying, Combining
   - Cross-Tabulation 
  - [Pandas exercises](https://github.com/guipsamora/pandas_exercises)
+ - `pandas.Series.apply(lambda x : func of x )`
+ - pandas.cut() returns indices of half open bins 
+ - pandas.MultiIndex
+ - pandas.reindex 
 
 # Matlpotlib
 - [Pyplot](http://matplotlib.org/api/pyplot_api.html)
