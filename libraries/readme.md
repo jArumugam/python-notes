@@ -37,6 +37,7 @@ Let me know if you find a missing source.
  - pandas.cut() returns indices of half open bins 
  - pandas.MultiIndex
  - pandas.reindex 
+ - [Split Apply Combine in R](https://www.jstatsoft.org/article/view/v040i01)
 
 # Matlpotlib
 - [Pyplot](http://matplotlib.org/api/pyplot_api.html)
