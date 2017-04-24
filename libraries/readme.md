@@ -7,10 +7,6 @@ Let me know if you find a missing source.
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 
-# Numpy
-
-# Scipy
-
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
 - [Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/v0.1/)
@@ -39,11 +35,7 @@ Let me know if you find a missing source.
  - pandas.reindex 
  - [Split Apply Combine in R](https://www.jstatsoft.org/article/view/v040i01)
 
-# Matlpotlib
-- [Pyplot](http://matplotlib.org/api/pyplot_api.html)
 
-# Seaborn
-- [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
@@ -51,6 +43,16 @@ Let me know if you find a missing source.
 # NetworkX
 
 # Snap.py
+
+# Numpy
+
+# Scipy
+
+# Matlpotlib
+- [Pyplot](http://matplotlib.org/api/pyplot_api.html)
+
+# Seaborn
+- [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
 # Parsing
 - [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
