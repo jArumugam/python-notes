@@ -63,7 +63,66 @@ Let me know if you find a missing source.
 # RegEx
 - [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
 - [RE Python docs], RE Python [HOWTO](https://docs.python.org/2/howto/regex.html#regex-howto)
-- Metacharacters . ^ $ * + ? { } [ ] \ | ( )
+- Portialla's [notes](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Regular%20Expressions.ipynb)
+
+
+### `re.search()`
+- `re.search(pattern, text)` returns a *match* object 
+- `match.start()`, `match.end()`
+
+### `re.split()`, `re.findall()`
+- `re.split(split_term,phrase)`
+- `re.findall(term, phrase)`
+
+### Metacharacters . ^ $ * + ? { } [ ] \ | ( )
+- `*` is repeated 0 or more times 
+- `+` is repeated 1 or more times 
+- `?` is 0 or 1 
+- `{m}` for *m* number of occurances
+- `{m,n}` minimum *m* and maximum *n* repetitions 
+```
+ 'sd*'           # s followed by zero or more d's
+ 'sd+'           # s followed by one or more d's
+ 'sd?'           # s followed by zero or one d's
+ 'sd{3}'         # s followed by three d's
+ 'sd{2,3}'       # s followed by two to three d's
+```
+### Charcater sets [ ]
+- [ab] searches for occurrences of either a or b.
+```
+  '[sd]'     # either s or d
+  's[sd]+'   # s followed by one or more s or d
+```
+- `^` excludes terms
+- `[^xy...z]` will match any single character not in the brackets 
+
+### Character Ranges 
+- `[start-end]`
+```
+  '[a-z]+'        # sequences of lower case letters
+  '[A-Z]+'        # sequences of upper case letters
+  '[a-zA-Z]+'     # sequences of lower or upper case letters
+  '[A-Z][a-z]+']  # one upper case letter followed by lower case letters
+
+```
+
+### Escape Codes 
+- `\d`: a digit
+- `\D`: a non-digit
+- `\s`: a whitespace 
+- `\S`: a non-whitespace
+- `\w`: alphanumeric
+- `\W`: non-alphanumeric
+```
+  r'\d+'   # sequence of digits
+  r'\D+'   # sequence of non-digits
+  r'\s+'   # sequence of whitespace
+  r'\S+'   # sequence of non-whitespace
+  r'\w+'   # alphanumeric characters
+  r'\W+'   # non-alphanumeric
+```
+- use of *r* to escape backslash 
+
 
 # SQL
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
