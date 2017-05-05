@@ -60,6 +60,33 @@ Let me know if you find a missing source.
 # Unix
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
 
+# SQL
+- Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
+- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
+1. SELECT
+2. FROM
+3. WHERE
+4. GROUP BY
+5. HAVING
+6. ORDER BY
+- Aggregate: COUNT, SUM, MIN/MAX, AVG
+- CASE
+- JOIN: Outer, INNER, Left, Right, FULL
+- JOIN: UNION, Self
+- [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
+- [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
+
+# Scraping
+1. Check temrs, legatily 
+
+### Beautiful Soup
+- [Docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+### HTML
+- [w3schools](https://www.w3schools.com/html/)
+- Also, Check codeacademy 
+
+
 # RegEx
 - [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
 - [RE Python docs], RE Python [HOWTO](https://docs.python.org/2/howto/regex.html#regex-howto)
@@ -123,32 +150,6 @@ Let me know if you find a missing source.
 ```
 - use of *r* to escape backslash 
 
-
-# SQL
-- Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
-- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
-1. SELECT
-2. FROM
-3. WHERE
-4. GROUP BY
-5. HAVING
-6. ORDER BY
-- Aggregate: COUNT, SUM, MIN/MAX, AVG
-- CASE
-- JOIN: Outer, INNER, Left, Right, FULL
-- JOIN: UNION, Self
-- [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
-- [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
-
-# Scraping
-1. Check temrs, legatily 
-
-### Beautiful Soup
-- [Docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-
-### HTML
-- [w3schools](https://www.w3schools.com/html/)
-- Also, Check codeacademy 
 
 # Git Tutorials
 1. There are repos 
