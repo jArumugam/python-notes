@@ -54,11 +54,6 @@ Let me know if you find a missing source.
 # Seaborn
 - [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
-# Parsing
-- [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
-
-# Unix
-- [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
 
 # SQL
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
@@ -76,8 +71,14 @@ Let me know if you find a missing source.
 - [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
 - [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
 
+# Unix
+- [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
+
+# Parsing
+- [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
+
 # Scraping
-1. Check temrs, legatily 
+1. Check terms, legatily 
 
 ### Beautiful Soup
 - [Docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -85,6 +86,9 @@ Let me know if you find a missing source.
 ### HTML
 - [w3schools](https://www.w3schools.com/html/)
 - Also, Check codeacademy 
+
+### CSS
+- [w3schools](https://www.w3schools.com/css/default.asp)
 
 
 # RegEx
