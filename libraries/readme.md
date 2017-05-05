@@ -90,6 +90,8 @@ Let me know if you find a missing source.
 ### CSS
 - [w3schools](https://www.w3schools.com/css/default.asp)
 
+### XML
+- [w3schools](https://www.w3schools.com/xml/default.asp)
 
 # RegEx
 - [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
