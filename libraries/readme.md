@@ -64,7 +64,7 @@ Let me know if you find a missing source.
 - [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
 - [RE Python docs], RE Python [HOWTO](https://docs.python.org/2/howto/regex.html#regex-howto)
 - Portialla's [notes](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Regular%20Expressions.ipynb)
-
+- Book: Regular expression: Pocket Reference 
 
 ### `re.search()`
 - `re.search(pattern, text)` returns a *match* object 
