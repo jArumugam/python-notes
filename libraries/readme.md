@@ -6,6 +6,8 @@ Let me know if you find a missing source.
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
+- [InteractivePython Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
+
 
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
@@ -35,8 +37,6 @@ Let me know if you find a missing source.
  - pandas.reindex 
  - [Split Apply Combine in R](https://www.jstatsoft.org/article/view/v040i01)
 
-
-
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
 
@@ -56,6 +56,8 @@ Let me know if you find a missing source.
 
 
 # SQL
+- [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
+- [sqlzoo](https://sqlzoo.net/) 
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
 - Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
 1. SELECT
@@ -170,3 +172,12 @@ Let me know if you find a missing source.
 - [Github guides](https://guides.github.com/)
 - [How to use git](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
 - [Pro Git Book](https://git-scm.com/book/en/v2)  
+
+# Aside 
+## Udacity 
+ - [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
+ - [Techinical interview](https://www.udacity.com/course/technical-interview--ud513) 
+ 
+## Coding links
+ - [LeetCode](https://leetcode.com/)
+ - [Topcoder](https://www.topcoder.com/)
