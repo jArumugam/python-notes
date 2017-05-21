@@ -138,7 +138,6 @@ Let me know if you find a missing source.
   '[A-Z]+'        # sequences of upper case letters
   '[a-zA-Z]+'     # sequences of lower or upper case letters
   '[A-Z][a-z]+']  # one upper case letter followed by lower case letters
-
 ```
 
 ### Escape Codes 
@@ -175,9 +174,12 @@ Let me know if you find a missing source.
 
 # Aside 
 ## Udacity 
- - [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
- - [Techinical interview](https://www.udacity.com/course/technical-interview--ud513) 
+- [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
+- [Techinical interview](https://www.udacity.com/course/technical-interview--ud513) 
  
 ## Coding links
- - [LeetCode](https://leetcode.com/)
- - [Topcoder](https://www.topcoder.com/)
+- [LeetCode](https://leetcode.com/)
+- [Topcoder](https://www.topcoder.com/)
+ 
+## Blogs
+- [Analytics Vidya](https://www.analyticsvidhya.com/)
