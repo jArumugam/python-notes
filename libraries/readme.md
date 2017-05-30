@@ -78,6 +78,8 @@ Let me know if you find a missing source.
 
 # Parsing
 - [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
+- `dt = datetime.datetime.strptime(string_date, fmt)`
+- [converting string to date time SO](https://stackoverflow.com/questions/466345/converting-string-into-datetime)
 
 # Scraping
 1. Check terms, legatily 
