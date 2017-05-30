@@ -54,7 +54,6 @@ Let me know if you find a missing source.
 # Seaborn
 - [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
-
 # SQL
 - [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
 - [sqlzoo](https://sqlzoo.net/) 
@@ -76,13 +75,13 @@ Let me know if you find a missing source.
 # Unix
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
 
-# Parsing
-- [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
-- `dt = datetime.datetime.strptime(string_date, fmt)`
-- [converting string to date time SO](https://stackoverflow.com/questions/466345/converting-string-into-datetime)
-
 # Scraping
 1. Check terms, legatily 
+
+### Date and Time 
+- `dt = datetime.datetime.strptime(string_date, fmt)`
+- [datetime docs](https://docs.python.org/2/library/datetime.html#datetime.datetime.strptime) 
+- [converting string to date time SO](https://stackoverflow.com/questions/466345/converting-string-into-datetime)
 
 ### Beautiful Soup
 - [Docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -96,6 +95,7 @@ Let me know if you find a missing source.
 
 ### XML
 - [w3schools](https://www.w3schools.com/xml/default.asp)
+- [xml.sax blog post](http://www.knowthytools.com/2010/03/sax-parsing-with-python.html)
 
 # RegEx
 - [RE guide](http://www.zytrax.com/tech/web/regex.htm), RE guide [examples](http://www.zytrax.com/tech/web/regex.htm#experiment)
