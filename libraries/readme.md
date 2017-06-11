@@ -2,8 +2,7 @@ Library tests and tutorials.
 These are codes mostly from documentation and tutorials.
 Let me know if you find a missing source. 
 
-# Algorithms and Data Structures
-- [Portilla's nnotebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
+
 
 # Selected Python Books
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
@@ -11,6 +10,13 @@ Let me know if you find a missing source.
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 - [InteractivePython Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 
+- [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
+
+# Algorithms and Data Structures
+- [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
+
+# Jupyter
+- [Jupyter Notebook Manual](https://athena.brynmawr.edu/jupyter/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb)
 
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
