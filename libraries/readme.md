@@ -20,6 +20,7 @@ Let me know if you find a missing source.
 - [O(log n) described](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) 
 
 ### Array Sequences
+- Listm Tuples, and String 
 
 ### Stacks Queues and Deques
 
