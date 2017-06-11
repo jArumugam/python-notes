@@ -14,6 +14,25 @@ Let me know if you find a missing source.
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
 
 # Algorithms and Data Structures
+### Big O
+- [Big O Cheat Sheet](http://bigocheatsheet.com/)
+- [Big O in Plain English](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation/487278#487278)
+- [O(log n) described](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) 
+
+### Array Sequences
+
+### Stacks Queues and Deques
+
+### Linked List 
+
+### Recursion 
+
+### Trees
+
+### Searching and Sorting 
+
+### Graph Algorithms 
+
 - [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
 - [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
 
