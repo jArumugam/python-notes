@@ -2,6 +2,9 @@ Library tests and tutorials.
 These are codes mostly from documentation and tutorials.
 Let me know if you find a missing source. 
 
+# Algorithms and Data Structures
+- [Portilla's nnotebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
+
 # Selected Python Books
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
