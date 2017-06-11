@@ -2,7 +2,8 @@ Library tests and tutorials.
 These are codes mostly from documentation and tutorials.
 Let me know if you find a missing source. 
 
-
+# PEP 8 Style Guide
+- [PEP 8 guide](https://www.python.org/dev/peps/pep-0008/)
 
 # Selected Python Books
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
