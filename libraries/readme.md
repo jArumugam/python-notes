@@ -10,6 +10,7 @@ Let me know if you find a missing source.
 - [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 - [InteractivePython Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 
+# O'Reilly Archive 
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
 
 # Algorithms and Data Structures
