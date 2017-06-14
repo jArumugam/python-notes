@@ -72,6 +72,7 @@ Let me know if you find a missing source.
 # SQL
 - [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
 - [sqlzoo](https://sqlzoo.net/) 
+- [w3schools](https://www.w3schools.com/sql/)
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
 - Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
 1. SELECT
@@ -80,10 +81,13 @@ Let me know if you find a missing source.
     * IN, BETWEEN
     * wildcards `%`, `_` 
     * `CONCAT`,`REPLACE`, `AS` 
+    * `ROUND`, `LENGTH`
+    * =, !=, AND, OR, XOR 
 4. GROUP BY
 5. HAVING
 6. ORDER BY
 - Aggregate: COUNT, SUM, MIN/MAX, AVG
+- DISTINCT 
 - CASE
 - JOIN: Outer, INNER, Left, Right, FULL
 - JOIN: UNION, Self
