@@ -71,7 +71,7 @@ Let me know if you find a missing source.
 
 # SQL
 - [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
-- [sqlzoo](https://sqlzoo.net/) 
+- [SQLzoo](https://sqlzoo.net/), [sqlzoo soluitons](https://github.com/mrdziuban/SQLZoo)
 - [w3schools](https://www.w3schools.com/sql/)
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
 - Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
@@ -87,7 +87,7 @@ Let me know if you find a missing source.
 5. HAVING
 6. ORDER BY
 - Aggregate: COUNT, SUM, MIN/MAX, AVG
-- DISTINCT 
+- DISTINCT, NOT EXISTS 
 - CASE
 - JOIN: Outer, INNER, Left, Right, FULL
 - JOIN: UNION, Self
