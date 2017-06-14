@@ -77,9 +77,9 @@ Let me know if you find a missing source.
 1. SELECT
 2. FROM
 3. WHERE
-  * IN, BETWEEN
-  * wildcards `%`, `_` 
-  * `CONCAT`,`REPLACE`, 'AS' 
+    * IN, BETWEEN
+    * wildcards `%`, `_` 
+    * `CONCAT`,`REPLACE`, `AS` 
 4. GROUP BY
 5. HAVING
 6. ORDER BY
