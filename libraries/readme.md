@@ -69,6 +69,27 @@ Let me know if you find a missing source.
  - pandas.reindex 
  - [Split Apply Combine in R](https://www.jstatsoft.org/article/view/v040i01)
 
+# SQL
+- [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
+- [sqlzoo](https://sqlzoo.net/) 
+- Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
+- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
+1. SELECT
+2. FROM
+3. WHERE
+  * IN, BETWEEN
+  * wildcards `%`, `_` 
+  * `CONCAT`,`REPLACE`, 'AS' 
+4. GROUP BY
+5. HAVING
+6. ORDER BY
+- Aggregate: COUNT, SUM, MIN/MAX, AVG
+- CASE
+- JOIN: Outer, INNER, Left, Right, FULL
+- JOIN: UNION, Self
+- [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
+- [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
+
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
 
@@ -85,24 +106,6 @@ Let me know if you find a missing source.
 
 # Seaborn
 - [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
-
-# SQL
-- [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
-- [sqlzoo](https://sqlzoo.net/) 
-- Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
-- Basics: [MODE Basics](https://community.modeanalytics.com/sql/tutorial/sql-in-mode/), MODE Inter
-1. SELECT
-2. FROM
-3. WHERE
-4. GROUP BY
-5. HAVING
-6. ORDER BY
-- Aggregate: COUNT, SUM, MIN/MAX, AVG
-- CASE
-- JOIN: Outer, INNER, Left, Right, FULL
-- JOIN: UNION, Self
-- [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
-- [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
 
 # Unix
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
