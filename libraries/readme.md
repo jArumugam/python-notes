@@ -47,59 +47,20 @@ Let me know if you find a missing source.
 - Cracking the coding interview 
 
 --->
+# Python  Basics
 
-
-# Algorithms and Data Structures
-- [MIT Intro to CS](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/)
-- [Coursera Algorithms](https://www.coursera.org/learn/algorithms-part1)
-### Big O
-- [Big O Cheat Sheet](http://bigocheatsheet.com/)
-- [Big O in Plain English](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation/487278#487278)
-- [O(log n) described](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) 
-
-### Array Sequences
-- Listm Tuples, and String 
-
-### Stacks Queues and Deques
-
-### Linked List 
-
-### Heap 
-
-### Recursion 
-
-### Master theorem 
-
-### Trees
-
-### BST 
-
-### Searching and Sorting 
-- Bubble Sort 
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Heap Sort
-- Quick Sort 
-- Timsort
-
-### Graph Algorithms 
-- DFS
-- BFS
-- Dijkstra's
-- Path of least resistance
-
-### Dynamic Programming
-- Memoization
-- Knapsack
-- Reservoir sampling
-- Fibonacci sequence 
-
-- [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
-- [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
-
-# Jupyter
+### Jupyter
 - [Jupyter Notebook Manual](https://athena.brynmawr.edu/jupyter/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb)
+
+### Numpy
+
+### Scipy
+
+### Matlpotlib
+- [Pyplot](http://matplotlib.org/api/pyplot_api.html)
+
+### Seaborn
+- [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
 # Pandas
 - [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
@@ -157,22 +118,64 @@ Let me know if you find a missing source.
 - [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
 - Hive, Hadoop, MapReduce 
 
+# Algorithms and Data Structures
+- [MIT Intro to CS](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/)
+- [Coursera Algorithms](https://www.coursera.org/learn/algorithms-part1)
+### Big O
+- [Big O Cheat Sheet](http://bigocheatsheet.com/)
+- [Big O in Plain English](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation/487278#487278)
+- [O(log n) described](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) 
+
+### Array Sequences
+- Listm Tuples, and String 
+
+### Stacks Queues and Deques
+
+### Linked List 
+
+### Heap 
+
+### Recursion 
+
+### Master theorem 
+
+### Trees
+
+### BST 
+
+### Searching and Sorting 
+- Bubble Sort 
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Heap Sort
+- Quick Sort 
+- Timsort
+
+### Graph Algorithms 
+- DFS
+- BFS
+- Dijkstra's
+- Path of least resistance
+
+### Dynamic Programming
+- Memoization
+- Knapsack
+- Reservoir sampling
+- Fibonacci sequence 
+
+- [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
+- [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
+
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
 
-# NetworkX
+# Graphs 
 
-# Snap.py
+### NetworkX
 
-# Numpy
+### Snap.py
 
-# Scipy
-
-# Matlpotlib
-- [Pyplot](http://matplotlib.org/api/pyplot_api.html)
-
-# Seaborn
-- [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
 
 # Unix
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
