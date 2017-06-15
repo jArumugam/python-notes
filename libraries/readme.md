@@ -323,6 +323,7 @@ Let me know if you find a missing source.
 - [Statistics Done Wrong](https://www.statisticsdonewrong.com/)
 - [Power](https://stats.idre.ucla.edu/other/mult-pkg/seminars/intro-power/)
 - [Primer on Fraud](https://stripe.com/blog/a-primer-on-machine-learning-for-fraud-detection)
+- [Project Management](https://stats.stackexchange.com/questions/2910/how-to-efficiently-manage-a-statistical-analysis-project/)
 
 ### Udacity 
 - [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
@@ -332,5 +333,7 @@ Let me know if you find a missing source.
 - [LeetCode](https://leetcode.com/)
 - [Topcoder](https://www.topcoder.com/)
  
-## Blogs
+## Sites
 - [Analytics Vidya](https://www.analyticsvidhya.com/)
+- [GeoGebra](https://www.geogebra.org/materials/)
+- [Explained Visually](http://setosa.io/ev/)
