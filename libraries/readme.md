@@ -19,6 +19,7 @@ Let me know if you find a missing source.
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
 
 ### Useful References
+- [GH Data Science NBs](https://github.com/donnemartin/data-science-ipython-notebooks)
 - Python 4 data analysis 
 - NLP Python 
 - Ryan Mitchell web scraping
@@ -182,6 +183,13 @@ Let me know if you find a missing source.
 
 ### Unix
 - [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
+- [Mac OSX Bash Profile](https://natelandau.com/my-mac-osx-bash_profile/)
+- [Pipeline Unix](https://en.wikipedia.org/wiki/Pipeline_(Unix))
+  - `ls -l | grep key | less `
+  - `!` to run a statement as a shell command
+  - `%%` bash magic command to run all ipython statements as a shell command 
+### cmake 
+- [How cmake works](https://stackoverflow.com/questions/17525153/how-exactly-does-cmake-work)
 
 ### GIFs
 - [sort file names numerically SO](https://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
