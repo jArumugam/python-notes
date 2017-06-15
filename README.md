@@ -3,9 +3,7 @@ Notes from udemy course
 
 ### Relevant links 
 - [Complete Python Bootcamp](https://www.udemy.com/complete-python-bootcamp/)
-
 - [Instructor's notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
-
 - [Instructor's github repos](https://github.com/jmportilla?tab=repositories) 
 
 ## Introduction  
