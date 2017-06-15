@@ -282,20 +282,33 @@ Let me know if you find a missing source.
 - [How to use git](http://lifehacker.com/5983680/how-the-heck-do-i-use-github)
 - [Pro Git Book](https://git-scm.com/book/en/v2)  
 
-# Aside 
+# Big
+
+- Scala
+- Apache Spark 
+- Hadoop 
+- Mapreduce 
+
 - [Apache Mahout](http://mahout.apache.org/)
 - [Apache Hive](https://cwiki.apache.org/confluence/display/Hive/Home)
 
-## Statistics
+# Deep 
+
+
+# Optimize
+
+
+# Aside 
+### Statistics
 - [Statistics Done Wrong](https://www.statisticsdonewrong.com/)
 - [Power](https://stats.idre.ucla.edu/other/mult-pkg/seminars/intro-power/)
 - [Primer on Fraud](https://stripe.com/blog/a-primer-on-machine-learning-for-fraud-detection)
 
-## Udacity 
+### Udacity 
 - [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
 - [Techinical interview](https://www.udacity.com/course/technical-interview--ud513) 
  
-## Coding links
+### Coding links
 - [LeetCode](https://leetcode.com/)
 - [Topcoder](https://www.topcoder.com/)
  
