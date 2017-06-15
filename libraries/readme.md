@@ -5,7 +5,9 @@ Let me know if you find a missing source.
 # PEP 8 
 - [PEP 8 stlye guide](https://www.python.org/dev/peps/pep-0008/)
 
-# Selected Python Books
+# Books
+
+#### Selected Python
 - [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
 - [Hitchhiker's Guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 - [Interactive Python Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
@@ -13,8 +15,39 @@ Let me know if you find a missing source.
 - [Ipython Cookbook](https://github.com/ipython-books/cookbook-code)
 - [Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 
-# O'Reilly Archive 
+### O'Reilly Archive 
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
+
+### Useful References
+- Python 4 data analysis 
+- NLP Python 
+- Ryan Mitchell web scraping
+- Richard lawson web scraping 
+- Mining the social web 
+- Regular expression pocket edition 
+- Doing Data Science 
+
+- Automate the boring stuff
+- Linux command line 
+
+- Algorithms design manual 
+- Networks, crowds, and markets 
+- Sutton reinforcement learning 
+
+<!---
+- Lean Analytics 
+- Heard on the Street 
+
+- Zero to One
+- Made in America 
+
+- How to talk to anyone 92 tricks 
+- Dale Carnegie's How to win friends 
+
+- Cracking the coding interview 
+
+--->
+
 
 # Algorithms and Data Structures
 - [MIT Intro to CS](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/)
