@@ -6,10 +6,11 @@ Let me know if you find a missing source.
 - [PEP 8 stlye guide](https://www.python.org/dev/peps/pep-0008/)
 
 # Selected Python Books
-- [Hitchhiker's guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
+- [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
+- [Hitchhiker's Guide](http://python-guide-pt-br.readthedocs.io/en/latest/)
 - [Interactive Python Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
-- [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
+- [Ipython Cookbook](https://github.com/ipython-books/cookbook-code)
 - [Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 # O'Reilly Archive 
