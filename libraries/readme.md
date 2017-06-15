@@ -14,6 +14,7 @@ Let me know if you find a missing source.
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
 - [Ipython Cookbook](https://github.com/ipython-books/cookbook-code)
 - [Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
+- [GH Dive Into Python](https://github.com/Apress/dive-into-python)
 
 ### O'Reilly Archive 
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
