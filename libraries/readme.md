@@ -172,16 +172,19 @@ Let me know if you find a missing source.
 
 # Graphs 
 
-### NetworkX
+- NetworkX
+- Snap.py
 
-### Snap.py
-
-
-# Unix
-- [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
 
 # Scraping
 1. Check terms, legatily 
+
+### Unix
+- [awk and sed](http://www.theunixschool.com/p/awk-sed.html)
+
+### GIFs
+- [sort file names numerically SO](https://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
+- [creating GIFs](https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python)
 
 ### Date and Time 
 - `dt = datetime.datetime.strptime(string_date, fmt)`
@@ -264,9 +267,6 @@ Let me know if you find a missing source.
 ```
 - use of *r* to escape backslash 
 
-### GIFs
-- [sort file names numerically SO](https://stackoverflow.com/questions/4623446/how-do-you-sort-files-numerically)
-- [creating GIFs](https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python)
 
 # Git Tutorials
 1. There are repos 
