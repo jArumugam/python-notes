@@ -175,6 +175,7 @@ Let me know if you find a missing source.
 - NetworkX
 - Snap.py
 
+# D3 
 
 # Scraping
 1. Check terms, legatily 
@@ -303,6 +304,11 @@ Let me know if you find a missing source.
 
 # Optimize
 
+
+# Web 
+- Flask
+- Django 
+- Heroku 
 
 # Aside 
 ### Statistics
