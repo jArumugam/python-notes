@@ -10,11 +10,14 @@ Let me know if you find a missing source.
 - [Interactive Python Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 - [Python Tips](http://book.pythontips.com/en/latest/index.html) Intermediate python
 - [Ipython cookbook](https://github.com/ipython-books/cookbook-code)
+- [Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 # O'Reilly Archive 
 - [Free O'Reilly Books](http://www.oreilly.com/data/free/archive.html)
 
 # Algorithms and Data Structures
+- [MIT Intro to CS](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/)
+- [Coursera Algorithms](https://www.coursera.org/learn/algorithms-part1)
 ### Big O
 - [Big O Cheat Sheet](http://bigocheatsheet.com/)
 - [Big O in Plain English](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation/487278#487278)
@@ -27,13 +30,36 @@ Let me know if you find a missing source.
 
 ### Linked List 
 
+### Heap 
+
 ### Recursion 
+
+### Master theorem 
 
 ### Trees
 
+### BST 
+
 ### Searching and Sorting 
+- Bubble Sort 
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Heap Sort
+- Quick Sort 
+- Timsort
 
 ### Graph Algorithms 
+- DFS
+- BFS
+- Dijkstra's
+- Path of least resistance
+
+### Dynamic Programming
+- Memoization
+- Knapsack
+- Reservoir sampling
+- Fibonacci sequence 
 
 - [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
 - [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
@@ -71,6 +97,7 @@ Let me know if you find a missing source.
 
 # SQL
 - [SQL practise](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
+- [SQL 10 Easy Steps](https://blog.jooq.org/2016/03/17/10-easy-steps-to-a-complete-understanding-of-sql/)
 - [SQLzoo](https://sqlzoo.net/), [SQLzoo soluitons](https://github.com/mrdziuban/SQLZoo)
 - [w3schools](https://www.w3schools.com/sql/)
 - Basics: [w3schools](https://www.w3schools.com/sql/default.asp)
@@ -89,10 +116,12 @@ Let me know if you find a missing source.
 - Aggregate: COUNT, SUM, MIN/MAX, AVG
 - DISTINCT, NOT EXISTS 
 - CASE
+7. JOIN [W3 Venn Diagram](https://www.w3schools.com/sql/sql_join.asp)
 - JOIN: Outer, INNER, Left, Right, FULL
 - JOIN: UNION, Self
 - [MODE Advanced](https://community.modeanalytics.com/sql/tutorial/sql-data-types/)
 - [Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), [Relational Databse](https://en.wikipedia.org/wiki/Relational_database)
+- Hive, Hadoop, MapReduce 
 
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
@@ -217,6 +246,14 @@ Let me know if you find a missing source.
 - [Pro Git Book](https://git-scm.com/book/en/v2)  
 
 # Aside 
+- [Apache Mahout](http://mahout.apache.org/)
+- [Apache Hive](https://cwiki.apache.org/confluence/display/Hive/Home)
+
+## Statistics
+- [Statistics Done Wrong](https://www.statisticsdonewrong.com/)
+- [Power](https://stats.idre.ucla.edu/other/mult-pkg/seminars/intro-power/)
+- [Primer on Fraud](https://stripe.com/blog/a-primer-on-machine-learning-for-fraud-detection)
+
 ## Udacity 
 - [A/B testing](https://www.udacity.com/course/ab-testing--ud257) 
 - [Techinical interview](https://www.udacity.com/course/technical-interview--ud513) 
