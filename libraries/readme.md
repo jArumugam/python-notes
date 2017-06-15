@@ -287,10 +287,16 @@ Let me know if you find a missing source.
 - Scala
 - Apache Spark 
 - Hadoop 
-- Mapreduce 
+- MapReduce 
 
 - [Apache Mahout](http://mahout.apache.org/)
 - [Apache Hive](https://cwiki.apache.org/confluence/display/Hive/Home)
+
+# Cloud 
+
+- AWS
+- Bigquerry 
+- Databricks 
 
 # Deep 
 
