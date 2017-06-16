@@ -123,6 +123,9 @@ Let me know if you find a missing source.
 # Algorithms and Data Structures
 - [MIT Intro to CS](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/)
 - [Coursera Algorithms](https://www.coursera.org/learn/algorithms-part1)
+- [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
+- [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
+
 ### Big O
 - [Big O Cheat Sheet](http://bigocheatsheet.com/)
 - [Big O in Plain English](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation/487278#487278)
@@ -165,9 +168,6 @@ Let me know if you find a missing source.
 - Knapsack
 - Reservoir sampling
 - Fibonacci sequence 
-
-- [Portilla's Notebooks](http://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/) 
-- [Portilla's GH](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
 
 # Sklearn
 - [Sklearn examples](http://scikit-learn.org/stable/auto_examples/index.html) 
