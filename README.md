@@ -211,6 +211,7 @@ Notes from udemy course
   - [Python OOPs Tutorial point](http://www.tutorialspoint.com/python/python_classes_objects.htm)
   - [Python OOPs blog post](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
 - `__call__` and `__init__` are different [so1](https://stackoverflow.com/questions/9663562/what-is-difference-between-init-and-call-in-python), [so2](https://stackoverflow.com/questions/5824881/python-call-special-method-practical-example) 
+- [_ and \__ method notation](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-a-single-and-a-double-underscore-before-an-object-name)
   
 ## Errors and exception handling
   ```python
