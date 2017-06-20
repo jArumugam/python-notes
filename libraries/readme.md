@@ -338,5 +338,4 @@ Let me know if you find a missing source.
 - [Analytics Vidya](https://www.analyticsvidhya.com/)
 - [Analytics Vidya Learning Plan](https://www.analyticsvidhya.com/blog/2017/01/the-most-comprehensive-data-science-learning-plan-for-2017/)
 - [Geeks for geeks](http://www.geeksforgeeks.org/)
-- [GeoGebra](https://www.geogebra.org/materials/)
 - [Explained Visually](http://setosa.io/ev/)
